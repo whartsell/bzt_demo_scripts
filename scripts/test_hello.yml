@@ -1,0 +1,12 @@
+execution:
+- concurrency: 2
+  ramp-up: 10
+  hold-for: 60
+  scenario: hello_world
+
+
+scenarios:
+   hello_world:
+      requests:
+      - label: hello-world
+        url: http://localhost:8080/hello-world
