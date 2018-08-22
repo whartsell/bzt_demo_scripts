@@ -3,6 +3,6 @@ node {
 
    }
    stage('test') {
-	bzt 'hello-world.yml'
+     bzt alwaysUseVirtualenv: true, params: 'hello-world.yml', printDebugOutput: true
   }
 }
