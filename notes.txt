@@ -1,0 +1,49 @@
+introduction
+	Who am I
+		Software Performance Engineer at MedImpact
+	Experience
+		did performance testing on and off since 2002
+		during that time my roles included QA Automation,System Engineer,Principle system engineer
+		Specialized in performance testing exclusively in 2009
+		Since then I have bootstraped performance groups at StoredIQ,Bioware,and HomeAway
+	In my spare time i am building an airplane
+	
+	
+So what is Taurus?
+	Taurus is a performance test centric framework to orchestrate automation of performance testing
+	Taurus stands for Test AUtomation RUnning Smoothly
+	Taurus is an open source initiative created by Blazemeter. Its a maturing framework (about 3 years old)
+	Taurus is not just for jmeter.  It supports ~20 different executers ranging from Jmeter to selenium to Gatling as well as most popular unit test frameworks
+	It is designed to be integrated with blazemeter (even a free account) but is not required for most features
+	General feature set
+		YAML or JSON configuration syntax
+		Multiple executers
+		Cloud Provisioned Test Execution (Blazemeter account)
+		Pass/Fail Criteria
+		Test reporting (some require a blazemeter account)
+		Services module (utilities streamline tasks for startup,teardown as well as runtime)
+		JMX2YAML
+		Swagger2YAML
+		SoapUI
+
+Why would i use Taurus
+	taurus is easier to read and create (mostly)
+	Example:
+		create and run hello world jmeter script
+		create and run hello world taurus script
+		POINTS:
+			12 lines vs over 80
+			human readable
+			logging and packaging of artifacts built in
+			additional work in jmeter to do the same unless you are running GUI mode (NOT a best practice)
+		
+	example: integration into jenkins
+		create job for the script utilizing the performance plugin
+		POINTS:
+			simple integration
+			already get metrics
+			
+	Example: pass fail criteria
+		add pass fail criteria
+		POINTS:
+			now we get stable/unstable failed statuses now
