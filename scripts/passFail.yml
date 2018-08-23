@@ -1,5 +1,5 @@
 reporting:
 - module: passfail
   criteria:
-  - p90 >1000ms for 10s, continue as failed
+  - p90 >1500ms for 10s, continue as failed
   - fail >10% for 10s, stop as failed
