@@ -4,7 +4,7 @@ node {
    }
    
    stage('test') {
-     bzt './scripts/test_hello.yml'
+     sh 'bzt ./scripts/test_hello.yml'
   }
 }
 
