@@ -4,6 +4,5 @@ modules:
 
 reporting:
 - module: blazemeter
-  token: '086e5d772b273e62ed869cd8:9f9ec93649d2568340b3eeeed5c54abf340ff991bd25a3f7f102a8a8cc5e904813b2477e'
   test: BZT Demo
   project: BZT Demo Project
