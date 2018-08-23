@@ -4,8 +4,7 @@ node {
    }
    
    stage('test') {
-     sh 'bzt ./scripts/test_hello.yml scripts/passFail.yml scripts/junit.yml'
-     junit 'junit.xml'
+     bzt 'scripts/test_hello.yml'
   }
 }
 
