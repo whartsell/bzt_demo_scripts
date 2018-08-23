@@ -9,4 +9,4 @@ scenarios:
    hello_world:
       requests:
       - label: hello-world
-        url: http://localhost:8080/hello-world
+        url: http://192.168.1.247:8080/hello-world
